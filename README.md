@@ -15,6 +15,6 @@ Original - New = [-1.5, -0.5, 0.5, 1.5, -1.5, -0.5, 0.5, 1.5]
 The new set of samples is easily compressed via run-length encoding.
 Additionally the set of subtracted samples has a much smaller range of values and can optimistically be represented by fewer bytes per sample.
 
-However there are two main downsides.
-1. The values per group can vary wildly and it cannot be guaranteed that the new samples can be represented by fewer bytes per sample.
+However there are two main downsides.  
+1. The values per group can vary wildly and it cannot be guaranteed that the new samples can be represented by fewer bytes per sample.  
 2. It turns out that the encoded version is not substantially smaller than traditional lossless encoding algorithms.
